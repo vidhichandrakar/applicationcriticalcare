@@ -5,12 +5,13 @@ import { Box, InputAdornment, TextField, Typography } from "@mui/material";
 import ExpandCircleDownRoundedIcon from "@mui/icons-material/ExpandCircleDownRounded";
 import AppLogo from "../../Media/Images/App_Logo.jpg";
 import GoogleLogo from "../../Media/Images/Google_logo.png";
+import Image1 from "../../Media/Media_Image/IMG-20240207-WA0036.jpg"
 
 const NavHome = () => {
   return (
     <Fragment>
       <div className="homeImage">
-        <img src={Home} />
+        <img src={Image1} />
       </div>
       <div className="cardHome">
         <div className="leftDesign">
